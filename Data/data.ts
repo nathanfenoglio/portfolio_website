@@ -62,7 +62,8 @@ export const projectData = [
   },
   {
     id: 2,
-    image: "/images/MultiDimensionalMazes.jpg",
+    // image: "/images/MultiDimensionalMazes.jpg",
+    image: "/images/Picture1.png]",
     url: "/projects/multiDimensionalMazes",
     title: "MultiDimensional Mazes With 3D Rotations",
     category: "Games",
