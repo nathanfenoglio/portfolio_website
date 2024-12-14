@@ -17,6 +17,7 @@ export const aboutInfo = {
 };
 
 // general skills 
+// for some reason I can only get bg-blue-800 to work
 export const aboutInfoSkills = [ 
   {
     id: 1,
@@ -26,27 +27,31 @@ export const aboutInfoSkills = [
   {
     id: 2,
     skill: "Backend Development",
-    color: "bg-orange-800",  
+    color: "bg-blue-800",
+    // color: "bg-orange-800",  
   },
   {
     id: 3,
     skill: "Full Stack Development",
-    color: "bg-green-800",  
+    color: "bg-blue-800",
+    // color: "bg-green-800",  
   },
   {
     id: 4,
     skill: "Mobile Development",
-    color: "bg-blue-800",  
+    color: "bg-blue-800",
   },
   {
     id: 5,
     skill: "VST3 Plugin Development",
-    color: "bg-orange-800",  
+    color: "bg-blue-800",
+    // color: "bg-orange-800",  
   },
   {
     id: 6,
     skill: "Game Development",
-    color: "bg-green-800",  
+    color: "bg-blue-800",
+    // color: "bg-green-800",  
   },
 
 ];

@@ -14,7 +14,8 @@ const Hero = () => {
           {/* so set default margin top to 16 and then medium and higher screens margin top to 0 */}
           <div className='mt-16 md:mt-0'>
             {/* BaseInfo is stored in Data/data.ts */}
-            <h1 data-aos='fade-left' className='text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold'>Hi, I&apos;m {BaseInfo.name}</h1>
+            {/* <h1 data-aos='fade-left' className='text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold'>Hi, I&apos;m {BaseInfo.name}</h1> */}
+            <h1 data-aos='fade-left' className='text-3xl md:text-4xl lg:text-5xl mb-5 text-gray-300 font-semibold'>{BaseInfo.name}</h1>
             {/* .text-bg is defined in globals.css to create a linear gradient and be able to use here */}
             <h1 data-aos='fade-right' data-aos-delay='100' className='text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold'>{BaseInfo.position}</h1>
             

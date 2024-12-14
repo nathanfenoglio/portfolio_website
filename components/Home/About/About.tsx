@@ -25,7 +25,7 @@ const About = () => {
           {aboutInfoSkills.map((oneSkill) => (
             <div key={oneSkill.id} className='mt-8'>
               <div className='flex items-center space-x-2 mb-6'>
-                <div className={`w-7 h-7 ${oneSkill.color} flex flex-col items-center justify-center`}>
+              <div className={`w-7 h-7 ${oneSkill.color} flex flex-col items-center justify-center`}>
                   <FaCheck className='text-white'/> 
                 </div>
                 <p className='text-sm sm:text-base md:text-lg font-bold text-gray-300'>
