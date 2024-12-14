@@ -8,9 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      animation: {
+        blink: "blink 3s infinite",
+      },
+      keyframes: {
+        blink: {
+          "0%": { opacity: "0" },
+          "62%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
       },
     },
   },

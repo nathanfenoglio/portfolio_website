@@ -2,20 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* create custom tailwind classes here */
+/* after is a pseudo element keyword that is used to create the animation effect of the line under the navlink being drawn when hovered over */
+@layer components {
+  .nav__link {
+    @apply relative text-base lg:text-xl font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] 
+    after:bg-lime-500 text-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-500 after:origin-left;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* create linear gradient class for Hero.tsx position info */
+  .text-bg {
+    background-image: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-bg-band {
+    background-image: linear-gradient(to right, #a3e635 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* smooth scrolling globally for the whole page */
+  /* wanted it for when you click on the navbar links to smoothly scroll instead of instantly jump to the spot */
+  html {
+    /* add padding to the top of the place where the scroll would normally end up to avoid overlap with the navbar */
+    /* 12vh is the height of the navbar */
+    scroll-padding-top: 12vh;
+    scroll-behavior: smooth;
+  }
 }
