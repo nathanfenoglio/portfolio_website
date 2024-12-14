@@ -37,7 +37,8 @@ const Nav = ({ openNav }: Props) => {
     // background color, full width of screen
     // use navBg to change the background color of navbar based on if the user has scrolled (not changing background color on scroll right now)
     // <div className={`fixed ${navBg ? 'bg-purple-700' : 'bg-[#240b39]'} h-[12vh] z-[10] bg-blue-600 w-full`}>
-    <div className='fixed bg-blue-600 h-[12vh] z-[10] w-full'>
+    // <div className='fixed bg-blue-600 h-[12vh] z-[10] w-full'>
+    <div className='fixed bg-purple-700 h-[12vh] z-[10] w-full'>
       {/* flexbox flexible positioning and spacing of child elements, items-center centers the child elements vertically, h-full fills the entire height of the parent element */}
       {/* specified widths for average, small, and large screens, mx-auto centers the div element horizontally */}
       <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
