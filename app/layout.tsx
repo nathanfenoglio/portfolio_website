@@ -13,8 +13,8 @@ const font = Sora({
 
 // says important for SEO Search Engine Optimization purposes
 export const metadata: Metadata = {
-  title: "Web Developer Portfolio", // sets the title of the page
-  description: "Web Developer Portfolio with nextjs, react, and tailwindcss",
+  title: "Nathan Fenoglio", // sets the title of the page
+  description: "Nathan Fenoglio Portfolio with nextjs, react, and tailwindcss",
 };
 
 export default function RootLayout({
@@ -29,8 +29,6 @@ export default function RootLayout({
         className={`${font.className} bg-gradient-to-r from-black via-purple-500 to-grey-500`}>
         <ResponsiveNav />
         {children}
-        {/* idk for some reason unable to get Footer to display at bottom of screen, it ends up behind the Services section, putting it in Home.tsx */}
-        {/* oh it was because you had a hardcoded height in the page.tsx file, removed it and it's sitting at the bottom of the screen now */}
         <Footer />
         {/* button to scroll to top of page */}
         <ScrollToTop />
