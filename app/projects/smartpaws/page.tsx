@@ -4,7 +4,7 @@ import React from 'react'
 
 const SmartPaws = () => {
   return (
-    <div className='pt-16 pb-16 bg-gradient-to-r from-black via-purple-500 to-grey-500'>
+    <div className='pt-16 pb-16 bg-gradient-to-r from-black via-purple-500 to-grey-500 overflow-hidden'>
       <div data-aos='fade-right' data-aos-delay='100' className='mt-[12vh] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold'>
         <h1 className='text-center w-[60%] mx-auto text-[#00FFFF]'>SmartPaws Virtual Veterinarian</h1>
       </div>

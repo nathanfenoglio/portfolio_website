@@ -4,7 +4,7 @@ import React from 'react'
 
 const EscapeFromUTA = () => {
   return (
-    <div className='pt-16 pb-16 bg-gradient-to-r from-black via-purple-500 to-grey-500 text-white'>
+    <div className='pt-16 pb-16 bg-gradient-to-r from-black via-purple-500 to-grey-500 text-white overflow-hidden'>
       <div data-aos='fade-right' data-aos-delay='100' className='mt-[12vh] text-zinc-950 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold'>
         <h1 className='text-center w-[60%] mx-auto text-[#00FFFF]'>Escape From Underground Terrestrial Abyss</h1>
         {/* <p className='text-center mt-6 text-lg md:text-xl text-white text-opacity-60'>can add some talk about the video game if you want...</p> */}
