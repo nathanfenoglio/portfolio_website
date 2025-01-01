@@ -41,7 +41,9 @@ const Nav = ({ openNav }: Props) => {
     <div className='fixed bg-purple-700 h-[12vh] z-[10] w-full'>
       {/* flexbox flexible positioning and spacing of child elements, items-center centers the child elements vertically, h-full fills the entire height of the parent element */}
       {/* specified widths for average, small, and large screens, mx-auto centers the div element horizontally */}
-      <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
+      {/* <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'> */}
+      {/* <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'> */}
+      <div className='flex items-center h-full justify-between max-w-full container mx-auto px-4 md:px-[5%]'>
         {/* left navbar logo */}
         <h1 className='w-[40%] text-4xl xl:text-5xl font-bold text-white'>Nathan Fenoglio</h1>
         
@@ -70,8 +72,14 @@ const Nav = ({ openNav }: Props) => {
             }
 
           </div>
-          {/* hamburger */}
-          <HiBars3 onClick={openNav} className='lg:hidden w-8 h-8 text-white cursor-pointer hover:text-slate-200' />
+        </div>
+        {/* hamburger */}
+        {/* <HiBars3 onClick={openNav} className='lg:hidden w-8 h-8 text-white cursor-pointer hover:text-slate-200' /> */}
+        <div className='flex-shrink-0 lg:hidden'>
+          <HiBars3
+            onClick={openNav}
+            className='flex-shrink-0 w-8 h-8 text-white cursor-pointer hover:text-slate-200'
+          />
         </div>
       </div>
     </div>  

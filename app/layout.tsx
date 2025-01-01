@@ -26,7 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         // can remove the bg-gradient-to-r from-black via-purple-500 to-grey-500 if you want to have different backgrounds for each page
-        className={`${font.className} bg-gradient-to-r from-black via-purple-500 to-grey-500`}>
+        // className={`${font.className} bg-gradient-to-r from-black via-purple-500 to-grey-500`}>
+        className={`${font.className} bg-gradient-to-r from-black via-purple-500 to-grey-500 overflow-x-hidden`}>
         <ResponsiveNav />
         {children}
         <Footer />
