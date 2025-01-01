@@ -127,7 +127,7 @@ const MidiImageSeq = () => {
           <h1 className='text-[#FFD700] text-3xl sm:text-4xl md:text-5xl mt-12'>Reorder Images</h1>
           <div className='w-[80%] lg:w-[50%] pl-2 xl:pl-6 mx-auto text-start text-lg md:text-xl text-opacity-60 font-bold text-white'>
             <ul className='list-disc pl-5 space-y-4'>
-              <li className='mt-12'>&quot;Reorder Images&quot; provides the ability to rearrange the uploaded images' positions' in the images array</li>
+              <li className='mt-12'>&quot;Reorder Images&quot; provides the ability to rearrange the uploaded images&apos; positions&apos; in the images array</li>
               <li>for instance if you are sending midi note 48 to trigger image 48 but want a different image at index 48 to trigger, can rearrange the array on this page</li>
             </ul>
           </div>
