@@ -109,6 +109,14 @@ export const projectData = [
     title: "Restaurant Menus",
     category: "Web",
   },
+  {
+    id: 8,
+    image: "/images/midi_montage_image_seq_home.png",
+    url: "/projects/midiImageSeq",
+    title: "Midi Montage Image Sequencer",
+    category: "Web",
+  },
+
 ];
 
 // skills programming languages/frameworks
