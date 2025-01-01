@@ -28,8 +28,8 @@ const MidiImageSeq = () => {
         <div className='mt-6 lg:mb-12 text-start md:text-center'>
           <a 
             href='https://midi-montage-image-sequencer.vercel.app/' 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            target='_blank' 
+            rel='noopener noreferrer' 
             data-aos='fade-right' 
             data-aos-delay='100' 
             className='bg-gradient-to-r from-[#FFD700] to-[#00FFFF] bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold hover:scale-105 transition-transform duration-300 animate-blink hover:animate-none'
@@ -97,12 +97,12 @@ const MidiImageSeq = () => {
           {/* space-y-4 on the parent div for all of the list elements to control the spacing in between each list item */}
           <div className='w-[80%] lg:w-[50%] pl-2 mt-6 xl:pl-6 mx-auto text-start text-lg md:text-xl text-opacity-60 font-bold text-white'>
             <ul className='list-disc pl-5 space-y-4'>
-              <li>"Mod By" specifies what the incoming midi note will be modded by (remainder after division)</li>
-              <li>for example incoming midi note of 67 with "Mod By" set at 64 will trigger image 3 in images array 67 % 64 = 3</li>
-              <li>"Mod By" is by default set to the # of images that the user uploaded</li>
-              <li>to specify custom "Mod By" value, uncheck "Mod By # Images" checkbox</li>
-              <li>and input new value for "Mod By"</li>
-              <li>this value can be used to experiment with to produce patterns with varying range constrained by the "Mod By" value</li>
+              <li>&quot;Mod By&quot; specifies what the incoming midi note will be modded by (remainder after division)</li>
+              <li>for example incoming midi note of 67 with &quot;Mod By&quot; set at 64 will trigger image 3 in images array 67 % 64 = 3</li>
+              <li>&quot;Mod By&quot; is by default set to the # of images that the user uploaded</li>
+              <li>to specify custom &quot;Mod By&quot; value, uncheck &quot;Mod By # Images&quot; checkbox</li>
+              <li>and input new value for &quot;Mod By&quot;</li>
+              <li>this value can be used to experiment with to produce patterns with varying range constrained by the &quot;Mod By&quot; value</li>
             </ul>
           </div>
           <div className='relative w-full h-[500px] overflow-hidden rounded-lg md:mt-6'>
@@ -114,9 +114,9 @@ const MidiImageSeq = () => {
           <div className='w-[80%] lg:w-[50%] pl-2 xl:pl-6 mx-auto text-start text-lg md:text-xl text-opacity-60 font-bold text-white'>
             <ul className='list-disc pl-5 space-y-4'>
               <li className='mt-12'>parameter for user to specify the # of midi notes that each incoming midi note will be transposed up or down by</li>
-              <li>"Transpose MIDI Notes" is by default 0 (midi notes received will be unchanged)</li>
+              <li>&quot;Transpose MIDI Notes&quot; is by default 0 (midi notes received will be unchanged)</li>
               <li>can be used to move an incoming midi note pattern to cover different areas of the uploaded images</li>
-              <li>can be used in conjunction with "Mod By". "Mod By" to narrow the window of images being triggered, "Transpose MIDI Notes" to move the window through the image array</li>
+              <li>can be used in conjunction with &quot;Mod By&quot;. &quot;Mod By&quot; to narrow the window of images being triggered, &quot;Transpose MIDI Notes&quot; to move the window through the image array</li>
             </ul>
           </div>
           <div className='relative w-full h-[500px] overflow-hidden rounded-lg md:mt-6'>
@@ -127,7 +127,7 @@ const MidiImageSeq = () => {
           <h1 className='text-[#FFD700] text-3xl sm:text-4xl md:text-5xl mt-12'>Reorder Images</h1>
           <div className='w-[80%] lg:w-[50%] pl-2 xl:pl-6 mx-auto text-start text-lg md:text-xl text-opacity-60 font-bold text-white'>
             <ul className='list-disc pl-5 space-y-4'>
-              <li className='mt-12'>"Reorder Images" provides the ability to rearrange the uploaded images' positions' in the images array</li>
+              <li className='mt-12'>&quot;Reorder Images&quot; provides the ability to rearrange the uploaded images' positions' in the images array</li>
               <li>for instance if you are sending midi note 48 to trigger image 48 but want a different image at index 48 to trigger, can rearrange the array on this page</li>
             </ul>
           </div>
@@ -170,8 +170,8 @@ const MidiImageSeq = () => {
             <div className='mt-6 lg:mb-12 text-center'>
               <a 
                 href='https://midi-montage-image-sequencer.vercel.app/' 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                target='_blank' 
+                rel='noopener noreferrer' 
                 data-aos='fade-right' 
                 data-aos-delay='100' 
                 className='bg-gradient-to-r from-[#FFD700] to-[#00FFFF] bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold hover:scale-105 transition-transform duration-300 animate-blink hover:animate-none'
@@ -190,11 +190,11 @@ const MidiImageSeq = () => {
         <div className='flex items-center justify-center mt-12'>
           <a 
             href='https://github.com/nathanfenoglio/midi-montage-image-sequencer' 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            target='_blank' 
+            rel='noopener noreferrer' 
             data-aos='fade-right' 
             data-aos-delay='100' 
-            style={{ animationDelay: "0.3s" }}
+            style={{ animationDelay: '0.3s' }}
             className='bg-gradient-to-r from-[#FFD700] to-[#00FFFF] bg-clip-text text-transparent text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold hover:scale-105 transition-transform duration-300 animate-blink hover:animate-none'
           >
             Check out code on GitHub
