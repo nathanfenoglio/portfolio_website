@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const MidiImageSeq = () => {
   return (
@@ -10,7 +11,9 @@ const MidiImageSeq = () => {
 
       <div className='flex justify-center'>
         <div data-aos='zoom-in' data-aos-delay='400' className='mt-6 mx-auto rounded-[3rem] p-6'>
-          <Image src={'/images/midi_montage_image_seq_home.png'} alt={'midimontageimagesequencehome'} width={500} height={500} />
+          <Link target='_blank' href={'https://midi-montage-image-sequencer.vercel.app/'}>
+            <Image src={'/images/midi_montage_image_seq_home.png'} alt={'midimontageimagesequencehome'} width={500} height={500} />
+          </Link>
         </div>
       </div>
 
@@ -133,6 +136,15 @@ const MidiImageSeq = () => {
           </div>
           <div className='relative w-full h-[100px] overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/midi_image_seq_10.png' alt='midi_image_seq_10' layout='fill' objectFit='contain' className='rounded-lg'/>
+          </div>
+
+          <div className='w-[80%] lg:w-[50%] pl-2 xl:pl-6 mx-auto text-start text-lg md:text-xl text-opacity-60 font-bold text-white mt-12'>
+            <ul className='list-disc pl-5 space-y-4'>
+              <li>Select Randomize if you want to randomize the order of your images</li>
+            </ul>
+          </div>
+          <div className='relative w-full h-[350px] overflow-hidden rounded-lg md:mt-6'>
+            <Image src='/images/midi_image_seq_random.png' alt='midi_image_seq_10' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
 
           <div className='w-[80%] lg:w-[50%] pl-2 xl:pl-6 mx-auto text-start text-lg md:text-xl text-opacity-60 font-bold text-white'>

@@ -1,5 +1,6 @@
 import { escapeFromUTAImages } from '@/Data/projects'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const EscapeFromUTA = () => {
@@ -12,7 +13,9 @@ const EscapeFromUTA = () => {
 
       <div className='flex justify-center'>
         <div data-aos='zoom-in' data-aos-delay='400' className='mt-6 mx-auto rounded-[3rem] p-6'>
-          <Image src={'/images/Title_Screen_Screenshot.jpg'} alt={'escapefromutatitlescreenshot'} width={500} height={500} />
+          <Link target='_blank' href={'https://simmer.io/@nathanfenoglio/escape-from-underground-terrestrial-abyss'}>
+            <Image src={'/images/Title_Screen_Screenshot.jpg'} alt={'escapefromutatitlescreenshot'} width={500} height={500} />
+          </Link>
         </div>
       </div>
       {/* -leading is the space between lines */}

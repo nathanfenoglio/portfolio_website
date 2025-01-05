@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const MultiDimensionalMazes = () => {
@@ -10,7 +11,9 @@ const MultiDimensionalMazes = () => {
 
       <div className='flex justify-center'>
         <div data-aos='zoom-in' data-aos-delay='400' className='mt-6 mx-auto rounded-[3rem] p-6'>
-          <Image src={'/images/Picture1.png'} alt={'multidimensionalmazesscreenshot'} width={600} height={600} />
+          <Link target='_blank' href={'https://nathanfenoglio.github.io/multi_dimensional_mazes_with_3D_rotations/'}>
+            <Image src={'/images/Picture1.png'} alt={'multidimensionalmazesscreenshot'} width={600} height={600} />
+          </Link>
         </div>
       </div>
       {/* game description */}
