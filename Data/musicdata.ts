@@ -80,6 +80,11 @@ export const soloMusicData = [
     url: 'https://www.youtube.com/embed/12a4xSNXZtA',
     title: 'Vexed',
   },
+  {
+    id: 17,
+    url: 'https://www.youtube.com/watch?v=gzkwu-Iy-wg',
+    title: 'Twinning at Times',
+  },
 
 ];
 
