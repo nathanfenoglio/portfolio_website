@@ -82,7 +82,7 @@ export const soloMusicData = [
   },
   {
     id: 17,
-    url: 'https://www.youtube.com/watch?v=gzkwu-Iy-wg',
+    url: 'https://www.youtube.com/embed/gzkwu-Iy-wg',
     title: 'Twinning at Times',
   },
 
