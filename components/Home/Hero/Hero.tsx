@@ -52,7 +52,7 @@ const Hero = () => {
                 <h1 className='text-lg md:text-xl font-bold text-white'>LinkedIn</h1>
                 <Link href='https://www.linkedin.com/in/nathan-fenoglio-b0a148a2' target='_blank'>
                   {/* <p className='text-base md:text-lg text-white text-opacity-70'>https://www.linkedin.com/in/nathan-fenoglio-b0a148a2</p> */}
-                  <p className='text-base md:text-lg text-white text-opacity-70'>Nathan Fenoglio LinkedInlksjdf</p>
+                  <p className='text-base md:text-lg text-white text-opacity-70'>Nathan Fenoglio LinkedIn</p>
                 </Link>
               </div>
             </div>
