@@ -63,7 +63,7 @@ const MidiCellularAutomata = () => {
             <Image src='/images/cellular_automata_midi_seq_1.png' alt='cellular_automata_midi_seq_1' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='md:mt-12'>the specified rule is repeatedly run and displayed in the bottom portion of the app</p>
-          <div className='relative w-full h-[500px] overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full h-[200px] md:h-[500px] overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_2.png' alt='cellular_automata_midi_seq_2' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>the set of operations are displayed right here</p>
@@ -85,7 +85,7 @@ const MidiCellularAutomata = () => {
           <p>for instance if I specify row 16, the rhythm is specified as 1s for notes and 0s for rests</p>
           <p>following the pattern of black and white squares in that row</p>
           <p>you can group together the rhythm in whatever note grouping to help visualize the pattern</p>
-          <div className='relative w-full h-[400px] mx-auto overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full h-[250px] md:h-[400px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_5.png' alt='cellular_automata_midi_seq_5' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>you have the option to adjust the start point of the rhythm with the start index </p>
@@ -104,15 +104,15 @@ const MidiCellularAutomata = () => {
           <p>and I would like to create a rhythm that fits into a 2 bar space</p>
           <p>so I will remove the last note from the rhythm sequence from the right</p>
           <p>the # of row cells are displayed as a guide to how many 16th notes are in the rhythm</p>
-          <div className='relative w-full h-[500px] overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full h-[300px] md:h-[500px] overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_9.png' alt='cellular_automata_midi_seq_9' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>you then have the selection of the notes that you want to play on the rhythm section</p>
           <p>there are an assortment of scales that you can select from the drop down menu</p>
-          <div className='relative w-full h-[500px] overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full h-[400px] md:h-[500px] overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_10.png' alt='cellular_automata_midi_seq_10' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
-          <p className='mt-6'>or you can manually enter midi note values (middle C is 60 for example)</p>
+          <p>or you can manually enter midi note values (middle C is 60 for example)</p>
           <p>directly into the input box</p>
           <p>these notes will be cycled through and played in order</p>
           <p>for every black cell or 1 in the row rhythm</p>
@@ -150,13 +150,13 @@ const MidiCellularAutomata = () => {
           <p>(after 3 cycles through the rhythm sequence</p>
           <p>the 1st note in MIDI notes will be the 1st hit in the rhythm sequence again</p>
           <p>and the pattern repeats)</p>
-          <div className='relative w-full max-w-[500px] h-[300px] mx-auto overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full max-w-[500px] h-[200px] md:h-[300px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_16.png' alt='cellular_automata_midi_seq_16' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>the equivalence rules</p>
           <p>as in mirror symmetric and swapping the black cells with the white cells</p>
           <p>are displayed here for the user&apos;s reference</p>
-          <div className='relative w-full max-w-[500px] h-[500px] mx-auto overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full max-w-[500px] h-[300px] md:h-[500px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_17.png' alt='cellular_automata_midi_seq_17' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>actual midi note sending</p>
@@ -169,13 +169,13 @@ const MidiCellularAutomata = () => {
           <div className='relative w-full max-w-[500px] h-[100px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_18.png' alt='cellular_automata_midi_seq_18' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
-          <div className='relative w-full max-w-[500px] h-[200px] mx-auto overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full max-w-[500px] h-[100px] md:h-[200px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_19.png' alt='cellular_automata_midi_seq_19' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>so can run this outside of your daw from the web browser</p>
           <p>at least a piece of the application needs to remain in focus</p>
           <p>for the midi notes to be sent accurately</p>
-          <div className='relative w-full max-w-[1000px] h-[600px] mx-auto overflow-hidden rounded-lg md:mt-6'>
+          <div className='relative w-full max-w-[1000px] h-[200px] md:h-[600px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_20.png' alt='cellular_automata_midi_seq_20' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
           <p className='mt-6'>to demo on mobile devices you could download FluidSynth MIDI Synthesizer</p>
