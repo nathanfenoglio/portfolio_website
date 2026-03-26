@@ -48,7 +48,7 @@ const MidiCellularAutomata = () => {
           <p className='mt-6'>This is a tutorial on how to use the 1D Cellular Automata Midi Sequencer</p>
           <p>this app is available to use in your web browser at the above link</p>
           <p>and will allow you to create rhythms derived from a horizontal cross section</p>
-          <p>of any of Stephen Wolframs 1D Cellular Automata</p>
+          <p>of any of Stephen Wolfram&apos;s 1D Cellular Automata</p>
           <a 
             href='https://mathworld.wolfram.com/ElementaryCellularAutomaton.html' 
             target='_blank' 
