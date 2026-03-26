@@ -116,6 +116,13 @@ export const projectData = [
     title: "Midi Montage Image Sequencer",
     category: "Web",
   },
+  {
+    id: 9,
+    image: "/images/cellular_automata_midi_seq_full.jpg",
+    url: "/projects/midiCellularAutomata",
+    title: "1D Cellular Automata Midi Sequencer",
+    category: "Web",
+  },
 
 ];
 
