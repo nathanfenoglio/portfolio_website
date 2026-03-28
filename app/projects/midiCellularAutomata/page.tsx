@@ -137,6 +137,10 @@ const MidiCellularAutomata = () => {
           <div className='relative w-full max-w-[500px] h-[200px] mx-auto overflow-hidden rounded-lg md:mt-6'>
             <Image src='/images/cellular_automata_midi_seq_15.png' alt='cellular_automata_midi_seq_15' layout='fill' objectFit='contain' className='rounded-lg'/>
           </div>
+          <p className='mt-6'>and adjust the beat division in relation to the tempo</p>
+          <div className='relative w-full max-w-[500px] h-[200px] mx-auto overflow-hidden rounded-lg md:mt-6'>
+            <Image src='/images/cellular_automata_midi_seq_15_5.png' alt='cellular_automata_midi_seq_15' layout='fill' objectFit='contain' className='rounded-lg'/>
+          </div>
           <p className='mt-6'>the # of hits, # notes in seq, repeats after displayed values</p>
           <p>are for reference to be able to have an idea on how the # of notes</p>
           <p>in the note sequence interacts with the # of notes in the rhythm sequence</p>
