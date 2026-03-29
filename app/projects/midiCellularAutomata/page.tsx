@@ -43,6 +43,23 @@ const MidiCellularAutomata = () => {
 
       {/* Instructions */}
       <div className='w-[80%] mx-auto flex flex-col items-center justify-center'>
+        <h2 className='text-center text-lime-400 mt-[6vh] lg:mb-[3vh] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold'>Demo</h2>
+
+        <div className='w-[80%] max-w-[800px] mt-12'>
+              <div
+                key="demo"
+                className='relative w-full pt-[56.25%] bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300'>
+                <iframe
+                  className='absolute top-0 left-0 w-full h-full rounded-lg'
+                  src="https://www.youtube.com/embed/4Zc-mo71nYo"
+                  title="1D Cellular Automata Midi Sequencer Demo"
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                  allowFullScreen>  
+                </iframe>
+              </div>
+        </div>
+
+
         <h2 className='text-center text-lime-400 mt-[6vh] lg:mb-[3vh] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold'>Instructions</h2>
         <div className='w-[80%] mx-auto text-center text-lg md:text-xl text-opacity-60 font-bold text-white'>
           <p className='mt-6'>This is a tutorial on how to use the 1D Cellular Automata Midi Sequencer</p>
