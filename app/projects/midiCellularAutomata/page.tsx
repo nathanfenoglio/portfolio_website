@@ -241,14 +241,14 @@ const MidiCellularAutomata = () => {
             <h1 className='text-[#FFD700] text-3xl sm:text-4xl md:text-5xl'>Please use with your midi device at:</h1>
             <div className='mt-6 lg:mb-12 text-start md:text-center'>
               <a 
-                href='https://subprofessional-eastward-alysia.ngrok-free.dev/wolfram-cellular-automata-midi-notes/' 
+                href='https://wolfram-cellular-automata-midi-note.vercel.app/' 
                 target='_blank' 
                 rel='noopener noreferrer' 
                 data-aos='fade-right' 
                 data-aos-delay='100' 
                 className='bg-gradient-to-r from-[#FFD700] to-[#00FFFF] bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold hover:scale-105 transition-transform duration-300 animate-blink hover:animate-none'
               >
-                subprofessional-eastward-alysia.ngrok-free.dev/wolfram-cellular-automata-midi-notes/
+                wolfram-cellular-automata-midi-note.vercel.app
               </a>
             </div>
           </div>
