@@ -17,6 +17,21 @@ const Harry = () => {
           <li>Bass: Nathan Fenoglio</li>
         </ul>
       </div>
+
+      {/* post apocalyptic time travel core spotify link */}
+      <div className='flex items-center justify-center mt-12'>
+        <a 
+          href='https://open.spotify.com/album/48CJoQzKSf8hB1JwuUeCvD?si=ADAowQy4RI6kW-EX7pmExw' 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          data-aos='fade-left' 
+          data-aos-delay='100' 
+          className='text-bg-band text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold hover:scale-105 transition-transform duration-300'
+        >
+          Listen On Spotify
+        </a>
+      </div>
+
       {/* youtube video links */}
       <div className='w-[80%] mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
           {harryPostApocalypseData.map((video) => (
